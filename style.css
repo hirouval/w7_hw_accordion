@@ -1,0 +1,40 @@
+.top{
+    padding: 30px;
+}
+.accordion{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.accordion-trigger{
+    margin: 0;
+    padding: 10px;
+    display: block;
+    background: #fff;
+    color: #333333;
+    border-top: 1px solid #ccc
+    
+}
+
+
+.accordion-trigger > span{
+    color: #008B8B;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 20px;
+    
+}
+
+.accordion-contents{
+    margin: 0;
+    padding: 20px;
+    background: #ccc;
+    display: none;
+}
+
+.accordion-contents > span {
+    color: #DC143C;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 20px;
+}
